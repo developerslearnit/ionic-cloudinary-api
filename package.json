@@ -1,0 +1,30 @@
+{
+  "name": "photocloud",
+  "version": "1.0.0",
+  "description": "A nodejs app to upload image to cloudinary",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "keywords": [
+    "cloudinary",
+    "nodejs",
+    "api",
+    "heroku",
+    "mongodb",
+    "photo-upload"
+  ],
+  "author": "Mark Adesina",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "cloudinary": "^1.4.4",
+    "connect-multiparty": "^2.0.0",
+    "cors": "^2.8.1",
+    "express": "^4.14.0",
+    "mongoose": "^4.6.6"
+  },
+  "engines": {
+    "node": "6.0.0"
+  }
+}
