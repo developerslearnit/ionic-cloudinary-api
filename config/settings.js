@@ -1,5 +1,5 @@
 module.exports = {
-    'serverPort':8000,
+    'serverPort':5000,
     'dbUrl':'mongodb://dbuser:dbpassword@ds143737.mlab.com:43737/photobooth',
     'cloud_name': 'panachora',
     'api_key': '745522158985413',
