@@ -13,6 +13,7 @@ cloudinary.config({
 module.exports = {
 
     upload: function (req, res, next) {
+        console.log("Incoming Request -: ", req);
         cloudinary.uploader.upload(req.files.file.path, function (resp) {
 
             var newPost = new Post({
